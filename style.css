@@ -51,7 +51,6 @@ header{
     color: #E5E7EB;
     flex-grow: 1;
     flex-wrap: wrap;
-    height: 500px;
 }
 
 .hero-left{
@@ -98,8 +97,7 @@ header{
     flex-direction: column;
     padding-top: 50px;
     text-align: center;
-    height: 500px;
-
+    padding-bottom: 30px;
 }
 
 .img-section{
@@ -108,6 +106,8 @@ header{
     align-items: center;
     gap: 30px;
     flex-grow: 1;
+    padding-top: 20px;
+    flex-wrap: wrap;
 }
 
 .random-info > h3{
@@ -131,17 +131,16 @@ header{
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
-    flex-grow: 1;
     padding: 20px;
-    height: 500px;
     flex-wrap: wrap;
+    min-height: 300px;
+    text-align: center;
 }
 
 .quote-text{
     font-size: 36px;
     font-style: italic;
     text-wrap: wrap;
-    width: 700px;
     color: #1f2937;
 }
 
@@ -155,7 +154,8 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
+    padding: 20px;
+    flex-grow: 1;
 }
 
 .call-to-action-content{
