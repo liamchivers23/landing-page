@@ -5,8 +5,6 @@
 }
 
 body{
-    display: flex;
-    flex-direction: column;
     font-family: roboto, sans-serif;
 }
 
@@ -49,7 +47,6 @@ header{
     align-items: center;
     background-color: #1f2937;
     color: #E5E7EB;
-    flex-grow: 1;
     flex-wrap: wrap;
     padding: 20px;
 }
@@ -58,9 +55,9 @@ header{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-
     width: 550px;
     gap: 10px;
+    padding-bottom: 30px;
 }
 
 .hero-left > h2{
@@ -75,7 +72,6 @@ header{
     font-size: 15px;
     border: none;
     border-radius: 5px;
-    width: 100px;
     cursor: pointer;
 }
 
@@ -163,7 +159,7 @@ header{
     align-items: center;
     gap: 50px;
     background-color: #3882F6;
-    padding: 20px 40px 20px 40px;
+    padding: 20px 40px;
     width: 1000px;
     height: 100px;
     border-radius: 10px;
@@ -203,5 +199,39 @@ header{
     color: #E5E7EB;
     background-color: #1f2937;
     padding: 20px;
+}
 
+@media (max-width:768px) {
+    .nav-links{
+        font-size: 15px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .hero-left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .hero-right > img{
+        width: 250px;
+    }
+
+    .random-info > h3{
+        font-size: 35px;
+    }
+
+    .quote-text{
+        font-size: 20px;
+    }
+
+    .call-to-action-content{
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
 }
