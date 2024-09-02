@@ -51,13 +51,14 @@ header{
     color: #E5E7EB;
     flex-grow: 1;
     flex-wrap: wrap;
+    padding: 20px;
 }
 
 .hero-left{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    flex-wrap: wrap;
+
     width: 550px;
     gap: 10px;
 }
@@ -87,9 +88,7 @@ header{
 .hero-right > img{
     display: flex;
     flex-shrink: 1;
-    max-width: 500px;
-    max-height: 400px;
-    padding-bottom: 20px;
+    width: 450px;
 }
 
 .random-info{
@@ -189,6 +188,7 @@ header{
     border-radius: 10px;
     color: #E5E7EB;
     cursor: pointer;
+    font-size: 16px;
 }
 
 .call-to-action-btn:hover{
